@@ -1,0 +1,51 @@
+/* .parent{
+    width: 80%;
+    height: 400px;
+    margin: 0 auto;
+    border: 1px solid;
+    position: relative;
+}
+
+.child{
+    width: 200px;
+    height: 200px;
+    border: 1px solid green;
+    position: absolute;
+    top: 52%; left: 10%;
+} */
+
+/* .box{
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    position: relative;
+}
+.box1{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 200px;
+    height: 200px;
+    background-color: lightgrey;
+    z-index: -1;
+
+} */
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    /* display: none; */
+    position: absolute;
+    background-color: lightblue;
+    min-width: 160px;
+    box-shadow: 28px 28px;
+    padding: 12px 10px;
+    z-index: 1;
+
+}
+
+.dropdown-content:hover .dropdown-content{
+    display: block;
+}
